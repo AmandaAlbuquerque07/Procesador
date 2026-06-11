@@ -1,0 +1,87 @@
+V3 45
+FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Processador/FlipFlopPC.vhd 2026/06/10.14:59:06 P.20131013
+EN work/FlipFlopPC 1781115371 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Processador/FlipFlopPC.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FlipFlopPC/Behavioral 1781115372 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Processador/FlipFlopPC.vhd \
+      EN work/FlipFlopPC 1781115371
+FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Processador/mux2.vhd 2026/06/10.13:19:45 P.20131013
+EN work/mux2 1781116112 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Processador/mux2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux2/Behavioral 1781116113 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Processador/mux2.vhd \
+      EN work/mux2 1781116112
+FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Processador/MUX32bits_01.vhd 2026/06/10.15:28:03 P.20131013
+EN work/MUX32bits_01 1781116114 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Processador/MUX32bits_01.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/MUX32bits_01/Behavioral 1781116115 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Processador/MUX32bits_01.vhd \
+      EN work/MUX32bits_01 1781116114 CP mux2
+FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Processador/MUX5bits.vhd 2026/06/10.15:24:30 P.20131013
+EN work/MUX5bits 1781115877 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Processador/MUX5bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/MUX5bits/Behavioral 1781115878 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Processador/MUX5bits.vhd \
+      EN work/MUX5bits 1781115877 CP mux2
+FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Processador/PC.vhd 2026/06/10.15:16:06 P.20131013
+EN work/PC 1781115373 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Processador/PC.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/PC/Behavioral 1781115374 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Processador/PC.vhd \
+      EN work/PC 1781115373 CP FlipFlopPC
+FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/BancoDeRegistradores.vhd 2026/06/10.10:26:33 P.20131013
+EN work/BancoDeRegistradores 0 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/BancoDeRegistradores.vhd \
+      PB ieee/std_logic_1164 1381692176 PH work/tipo 0
+AR work/BancoDeRegistradores/Behavioral 0 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/BancoDeRegistradores.vhd \
+      EN work/BancoDeRegistradores 0 CP Decodificador32 CP Registrador32 \
+      CP Mux32x32
+FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Decodificador1x2.vhd 2026/06/10.09:53:33 P.20131013
+EN work/Decodificador1x2 1781098071 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Decodificador1x2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Decodificador1x2/Behavioral 1781098072 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Decodificador1x2.vhd \
+      EN work/Decodificador1x2 1781098071
+FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Decodificador2x4.vhd 2026/06/10.09:53:33 P.20131013
+EN work/Decodificador2x4 1781098075 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Decodificador2x4.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Decodificador2x4/Behavioral 1781098076 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Decodificador2x4.vhd \
+      EN work/Decodificador2x4 1781098075 CP Decodificador1x2
+FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Decodificador32.vhd 2026/06/10.10:27:45 P.20131013
+EN work/Decodificador32 1781098077 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Decodificador32.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Decodificador32/Behavioral 1781098078 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Decodificador32.vhd \
+      EN work/Decodificador32 1781098077 CP Decodificador2x4
+FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Mux32x32.vhd 2026/06/10.09:53:33 P.20131013
+EN work/Mux32x32 0 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Mux32x32.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PH work/tipo 0
+AR work/Mux32x32/Behavioral 0 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Mux32x32.vhd \
+      EN work/Mux32x32 0
+FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Registrador.vhd 2026/06/10.09:53:33 P.20131013
+EN work/Registrador 1781098073 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Registrador.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Registrador/Behavioral 1781098074 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Registrador.vhd \
+      EN work/Registrador 1781098073
+FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Registrador32.vhd 2026/06/10.09:53:33 P.20131013
+EN work/Registrador32 1781098079 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Registrador32.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Registrador32/Behavioral 1781098080 \
+      FL /export/convidado/Documentos/processador-amanda-giovana-leticia/Registrador/Registrador32.vhd \
+      EN work/Registrador32 1781098079 CP Registrador
